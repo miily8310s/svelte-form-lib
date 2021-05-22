@@ -1,0 +1,6 @@
+{
+  "svelteSortOrder": "options-scripts-markup-styles",
+  "svelteAllowShorthand": true,
+  "printWidth": 80,
+  "tabWidth": 2
+}

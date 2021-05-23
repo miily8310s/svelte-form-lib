@@ -16,9 +16,7 @@ module.exports = {
     sourceType: "module",
   },
   // plugins: ["@typescript-eslint"],
-  rules: {
-    "@ota-meshi/svelte/button-has-type": "error",
-  },
+  rules: {},
   overrides: [
     {
       files: ["*.svelte"],

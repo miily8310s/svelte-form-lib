@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Button } from "./components/Button";
   export let name: string;
 </script>
 
@@ -9,6 +10,10 @@
     how to build Svelte apps.
   </p>
 </main>
+<Button size="xs" />
+<Button size="sm" />
+<Button size="md" />
+<Button size="lg" />
 
 <style>
   main {

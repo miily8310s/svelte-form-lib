@@ -9,7 +9,7 @@ export interface FlyParams {
   opacity?: number;
 }
 
-export interface SvelteToastOptions {
+export interface ToastOptions {
   duration: number;
   dismissable: boolean;
   initial: number;
@@ -17,5 +17,9 @@ export interface SvelteToastOptions {
   reversed: boolean;
   intro: FlyParams;
   theme: { [key: string]: string };
+}
+
+export interface Toast extends ToastOptions {
+  id: number;
   msg: string;
 }

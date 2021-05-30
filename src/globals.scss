@@ -1,0 +1,9 @@
+:root {
+  --toastBackground: rgba(255, 255, 255, 0.95);
+  --toastColor: #424242;
+  --toastProgressBackground: aquamarine;
+  --toastContainerTop: auto;
+  --toastContainerRight: auto;
+  --toastContainerBottom: 8rem;
+  --toastContainerLeft: calc(50vw - 8rem);
+}

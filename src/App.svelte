@@ -1,10 +1,10 @@
 <script lang="ts">
   import { Button } from "./components/Button";
-  export let name: string;
+  import { Form } from "./components/Form";
 </script>
 
 <main>
-  <h1>Hello {name}!</h1>
+  <h1>Hello!</h1>
   <p>
     Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn
     how to build Svelte apps.
@@ -14,6 +14,7 @@
 <Button size="sm" />
 <Button size="md" />
 <Button size="lg" />
+<Form />
 
 <style>
   main {

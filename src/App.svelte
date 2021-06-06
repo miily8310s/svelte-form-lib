@@ -5,6 +5,7 @@
   import { Form } from "./components/Form";
   import { Toast } from "./components/Toast";
   import { toast } from "./components/Toast/store";
+  import { Calendar } from "./components/Calendar";
   import type { ToastOptions } from "./components/Toast/type";
   const defaults: ToastOptions = {
     duration: 400,
@@ -25,10 +26,11 @@
 <Button size="md" />
 <Button size="lg" />
 <Form />
-<ul>
+<!-- <ul>
   {#each $toast as item (item.id)}
     <li in:fly={item.intro} out:fade animate:flip={{ duration: 200 }}>
       <Toast {item} />
     </li>
   {/each}
-</ul>
+</ul> -->
+<Calendar />
